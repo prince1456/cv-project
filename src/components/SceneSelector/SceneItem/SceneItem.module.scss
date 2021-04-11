@@ -1,0 +1,73 @@
+.SceneItem {
+  display: flex;
+  margin-bottom: 10px;
+  width: 33%;
+  /* background: transparent linear-gradient(316deg, #E7E9EA 0%, #C6C6C6 100%) 0% 0% no-repeat padding-box; */
+  /* border: 1px solid #A5A5A5; */
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+.SceneItem p {
+  font-size: 24px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  color: #fff;
+  position: absolute;
+}
+
+.ImgWrap img {
+  display: block;
+  max-width: 100%;
+  height: auto; /* maintain aspect ratio*/
+}
+
+.ImgWrap {
+  width: 100%; /*or whatever you choose*/
+  margin: auto;
+  transition: width 1s, height 1s;
+  padding: 0.6em;
+  box-sizing: border-box;
+}
+
+.SceneItem:hover {
+  transform: scale(1.1);
+  background-color: rgba(white, 0.2);
+}
+
+/* .SceneItem div {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 55px;
+  min-height: 187px;
+  min-width: 297px;
+  background: url(../../../assets/images/chooseScene.PNG);
+  background-repeat: no-repeat;
+  background-size: 100%;
+} */
+
+.Selected {
+  background: transparent linear-gradient(162deg, #3166AD 0%, #84E2CC 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px -47px 46px #00000010;
+  width: 31%;
+}
+
+@media (max-width: 699px) {
+  .SceneItem {
+    width: 100%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .SceneItem {
+    width: 50%;
+  }
+}
+
+@media (min-width: 700px) {
+  /* .SceneItem:hover {
+    width: 35%;
+    height: 35%;
+  }   */
+}

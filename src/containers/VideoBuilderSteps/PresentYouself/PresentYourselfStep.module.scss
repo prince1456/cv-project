@@ -1,0 +1,25 @@
+.Wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.TitleWrapper {
+  padding: 10px;
+  position: absolute;
+  top: 7%;
+  font-size: 65px;
+  color: #FEFEFE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.StepTitle {
+  font-size: 75px;
+  font-family: 'Julius Sans', sans-serif;
+}

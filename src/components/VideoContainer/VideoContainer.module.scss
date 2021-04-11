@@ -1,0 +1,77 @@
+.Container {
+  position: absolute;
+  overflow: hidden;
+}
+
+.Container video {
+  position:absolute;
+  z-index:0;
+  width: 100%;
+}
+
+.Inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.DropZone {
+  border: 8px dashed #91b0b3;
+  margin: 15px;
+  color: #92b0b3;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background: white;
+  
+  &:hover {
+    background: #ecf0f5;
+  }
+}
+
+.DropZoneDesc {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 40%;
+}
+
+.VideoOverlay {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  // padding: 10px calc(50% - 50px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  opacity: 0.95;
+  cursor: pointer;
+  background-image: linear-gradient(transparent, #000);
+  transition: opacity 150ms;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.VideoPlayButton {
+  padding: 10px calc(50% - 50px);
+  position: absolute;
+  top: 40%;
+  left: 0;
+  display: block;
+  cursor: pointer;
+  right: 0;
+  bottom: 0;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

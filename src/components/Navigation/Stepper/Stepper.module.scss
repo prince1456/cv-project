@@ -1,0 +1,38 @@
+.Stepper {
+  color: #464646;
+  letter-spacing: 0px;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.Stepper p {
+  margin: 8px;
+}
+
+.Label {
+  margin: 6px;
+  display: inline-flex;
+  height: 10px;
+  width: 10px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  font-size: 0;
+  box-shadow: 0px -47px 46px #00000010;
+  /* border: 1px solid #DBDBDB; */
+  background: #DBDBDB 0% 0% no-repeat padding-box;
+  box-shadow: 0px -47px 46px #00000010;
+}
+
+.Checked {
+  background: #539ABA;
+  box-shadow: 0px -47px 46px #00000010;
+  /* border: 1px solid #539ABA; */
+}
+
+@media (max-width: 499px) {
+  .Stepper {
+    padding: 13px;
+  }
+}

@@ -1,0 +1,47 @@
+.Clip {
+  background: #E7E9EA 0% 0% no-repeat padding-box;
+  border: 0.5px dashed #707070;
+  padding: 10px 15px;
+  font-size: 11px;
+  color: #A5A5A5;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.4s ease;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.Inactive {
+  background: transparent linear-gradient(162deg, #3166AD 0%, #84E2CC 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px -47px 46px #00000010;
+  border: none;
+  color: #FFFFFF;
+}
+
+.New {
+  background: #E7E9EA 0% 0% no-repeat padding-box;
+  color: #000;
+  
+  &::before {
+    content: '+';
+    font-weight: 700;
+  }
+}
+
+.DeleteIcon {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.4s ease;
+
+  &:hover {
+    transform: scale(1.4);
+  }
+}

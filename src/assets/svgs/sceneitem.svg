@@ -1,0 +1,18 @@
+<svg width="298" height="188" viewBox="0 0 298 188">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.936" y1="0.931" x2="-2.497" y2="-4.709" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e7e9ea"/>
+      <stop offset="1" stop-color="#c6c6c6"/>
+    </linearGradient>
+  </defs>
+  <g id="Component_37_4" data-name="Component 37 – 4" transform="translate(0.5 0.5)">
+    <path id="_3deaab8bfeccecd73f40e3cb5774ca1b" data-name="3deaab8bfeccecd73f40e3cb5774ca1b" d="M0,0H297V187H0Z" stroke="#a5a5a5" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)"/>
+    <text id="Reference" transform="translate(149 128)" fill="#464646" font-size="15" font-family="Calibri-Bold, Calibri" font-weight="700"><tspan x="-35.431" y="0">REFERENCE</tspan></text>
+    <g id="_x33_-Picture" transform="translate(117.971 56)">
+      <path id="Path_84" data-name="Path 84" d="M53.335,46H6.725a6.7,6.7,0,0,1-6.7-6.695V6.7A6.7,6.7,0,0,1,6.725,0h46.61A6.7,6.7,0,0,1,60.03,6.7v32.61A6.7,6.7,0,0,1,53.335,46ZM6.725,2A4.7,4.7,0,0,0,2.03,6.7v32.61A4.7,4.7,0,0,0,6.725,44h46.61a4.7,4.7,0,0,0,4.695-4.695V6.7A4.7,4.7,0,0,0,53.335,2Z" fill="#464646"/>
+      <path id="Path_85" data-name="Path 85" d="M39.03,22a6,6,0,1,1,6-6A6.007,6.007,0,0,1,39.03,22Zm0-10a4,4,0,1,0,4,4A4,4,0,0,0,39.03,12Z" fill="#464646"/>
+      <path id="Path_86" data-name="Path 86" d="M53.335,46H30.474a1,1,0,0,1-.747-1.664l15.556-17.5a1.032,1.032,0,0,1,1.495,0L59.3,40.922a1,1,0,0,1,.168,1.066A6.7,6.7,0,0,1,53.335,46ZM32.7,44H53.335a4.7,4.7,0,0,0,4.013-2.262L46.03,29Z" fill="#464646"/>
+      <path id="Path_87" data-name="Path 87" d="M30.474,46H6.724a6.7,6.7,0,0,1-6.7-6.695v-6.18a1,1,0,0,1,.253-.665l17-19.125a1.033,1.033,0,0,1,1.5,0l20,22.5a1,1,0,0,1,0,1.329l-7.556,8.5A1,1,0,0,1,30.474,46ZM2.03,33.505v5.8A4.7,4.7,0,0,0,6.725,44h23.3l6.667-7.5L18.03,15.505Z" fill="#464646"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+.Content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 100%;
+  margin-bottom: 1em;
+  position: relative;
+  max-width: 1920px;
+  width: 70%;
+}
+
+@media (max-width: 499px) {
+  .Content {
+    margin-top: 6em;
+    width: 90%;
+  }
+}
+
+footer {
+  line-height: 36px;
+  text-align: center;
+  height: 33px;
+  font-size: 10px;
+  font-weight: 600;
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+}

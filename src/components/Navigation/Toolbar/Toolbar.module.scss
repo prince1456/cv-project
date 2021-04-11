@@ -1,0 +1,59 @@
+.Toolbar {
+  height: 79px;
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.Toolbar nav {
+  height: 100%;
+}
+
+.Logo {
+  height: 100%;
+}
+
+@media (max-width: 499px) {
+  .DesktopOnly {
+      display: none;
+  }
+
+  .Toolbar {
+    justify-content: space-between;
+  }
+
+  .Container {
+    width: 100%;
+  }
+
+  .Logo {
+    padding: 10px;
+  }
+
+  .Toolbar nav {
+    padding: 20px;
+  }
+
+  .Stepper {
+    position: absolute;
+    top: 79px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+  }
+}
+
+@media (min-width: 500px) {
+  .MobileOnly {
+      display: none;
+  }
+}

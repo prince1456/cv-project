@@ -1,0 +1,38 @@
+.Modal {
+  display: flex;
+  left: 17%;
+  position: fixed;
+  top: 10%;
+  width: 65%;
+  min-height: 30%;
+  max-height: 70%;
+  flex-direction: column;
+  z-index: 1000;
+  background-color: white;
+  padding: 16px;
+  box-shadow: 1px 1px 1px black;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  // @media only screen and (max-width: 640px) {
+	// 	height: 50%
+	// }
+}
+
+.Header {
+  text-align: center;
+  font-weight: 600;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Content {
+    height: 100%;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    overflow-x: hidden;
+}
