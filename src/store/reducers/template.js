@@ -178,8 +178,8 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/3.svg",
           videoContainer: {
-            size: "81%",
-            position: { top: "19%", left: 0 },
+            size: "72%",
+            position: { top: 0, left: 0 },
           },
         },
         {
