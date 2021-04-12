@@ -70,6 +70,17 @@ const IntroStep = (props) => {
         </div>
       </div>
   }
+  if (selectedTemplate.id === 5) {
+    content =
+      <div className={classes.Wrapper4}>
+        <img src={selectedTemplate.sceneBackgrounds.find(s => props.id.includes(s.id)).url}/>
+        <VideoContainer size={currentScene.videoContainer.size} position={currentScene.videoContainer.position} videoUpload={videoUploadHandler} initialFile={data.file} />
+        <div className={classes.TitleWrapper5}>
+          <EditableInput inputType="Title5" placeholder={data.name || 'Your name here'} changed={(value) => changeHandler(value, 'name')} />
+          <EditableInput inputType="SubTitle5" placeholder={data.title || 'Your title here'} changed={(value) => changeHandler(value, 'title')} />
+        </div>
+      </div>
+  }
   else if (selectedTemplate.id === 7) {
     content =
       <div>
