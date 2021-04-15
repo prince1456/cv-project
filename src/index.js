@@ -30,7 +30,12 @@ const rootReducer = combineReducers({
 
 const store = createStore(
   rootReducer,
+<<<<<<< HEAD
   composeEnhancers(applyMiddleware(thunk))
+=======
+  composeEnhancers,
+  applyMiddleware(thunk)
+>>>>>>> Baqir
 );
 
 ReactDOM.render(
