@@ -161,7 +161,7 @@ const initialState = {
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/1.svg",
           videoContainer: {
             size: "60%",
-            position: { top: "20%", left: '8%' },
+            position: { top: "20%", left: "8%" },
           },
         },
         {
@@ -187,8 +187,8 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/4.svg",
           videoContainer: {
-            size: "80%",
-            position: { top: "0", right: "0" },
+            size: "75%",
+            position: { top: "10%", right: "0" },
           },
         },
         {
@@ -196,8 +196,8 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/5.svg",
           videoContainer: {
-            size: "52%",
-            position: { top: "27%" },
+            size: "78%",
+            position: { top: "10%",right:"0" },
           },
         },
         {

@@ -15,7 +15,7 @@
 }
 
 .Box9 {
-  background: #0B1226;
+  background: #0b1226;
   position: absolute;
   width: 26.5%;
   height: 47%;
@@ -29,8 +29,7 @@
   position: absolute;
   top: 7%;
   font-size: 65px;
-  color: #FEFEFE;
-  
+  color: #fefefe;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +45,7 @@
 
 .StepTitle {
   font-size: 75px;
-  font-family: 'Julius Sans', sans-serif;
+  font-family: "Julius Sans", sans-serif;
 }
 
 .TextBox {
@@ -61,8 +60,8 @@
 }
 
 .TextBoxInner {
-  color: #FEFEFE;
-  font-family: 'Julius Sans', sans-serif;
+  color: #fefefe;
+  font-family: "Julius Sans", sans-serif;
   font-size: 45px;
   width: 98%;
   text-align: center;
@@ -98,18 +97,29 @@
   flex-direction: column;
 }
 
-
 .TitleWrapper5 {
   // align-self: flex-end;
   padding: 10px;
   position: absolute;
-  top: 50%;
-  left: 2%;
+  top: 40%;
+  left: 8%;
   font-size: 65px;
   color: orange;
-  
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.TextBox5 {
+  position: absolute;
+  overflow: hidden;
+  width: 32%;
+  top: 57.2%;
+  color: #ffffff;
+  left: 0%;
+  display: flex;
   align-items: center;
   justify-content: center;
 }

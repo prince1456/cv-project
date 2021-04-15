@@ -25,9 +25,9 @@ const rootReducer = combineReducers({
   stepData: stepDataReducer
 });
 
-const store = createStore(rootReducer, composeEnhancers(
+const store = createStore(rootReducer, composeEnhancers,
   applyMiddleware(thunk)
-));
+);
 
 ReactDOM.render(
   <Provider store={store}>

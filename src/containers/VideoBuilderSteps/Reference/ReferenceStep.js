@@ -73,7 +73,7 @@ const ReferenceStep = (props) => {
             Reference
         </label>
         </div>
-        <div className={classes.TextBox}>
+        <div className={classes.TextBox5}>
           <div className={classes.TextBoxInner}>
             <EditableInput
               placeholder={data.name || 'Name'} changed={(value) => changeHandler(value, 'name')}
