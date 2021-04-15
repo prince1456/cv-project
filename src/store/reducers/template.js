@@ -160,8 +160,8 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/1.svg",
           videoContainer: {
-            size: "55%",
-            position: { top: "32%", left: "8%" },
+            size: "60%",
+            position: { top: "20%", left: "8%" },
           },
         },
         {
@@ -187,8 +187,8 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/4.svg",
           videoContainer: {
-            size: "75%",
-            position: { top: "10%", right: "0" },
+            size: "74.5%",
+            position: { top: "11.5%", right: "0" },
           },
         },
         {

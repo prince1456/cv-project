@@ -80,7 +80,7 @@ const ReferenceStep = (props) => {
               inputType="InlineSecondaryTitle5" />
             <EditableInput
               placeholder={data.position || 'Position'} changed={(value) => changeHandler(value, 'position')}
-              inputType="InlineSecondaryTitle5" />
+              inputType="InlineSecondaryPosition5" />
           </div>
         </div>
       </div>
