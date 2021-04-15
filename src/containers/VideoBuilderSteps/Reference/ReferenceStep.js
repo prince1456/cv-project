@@ -77,10 +77,10 @@ const ReferenceStep = (props) => {
           <div className={classes.TextBoxInner}>
             <EditableInput
               placeholder={data.name || 'Name'} changed={(value) => changeHandler(value, 'name')}
-              inputType="InlinePrimaryTitle" />
+              inputType="InlineSecondaryTitle5" />
             <EditableInput
               placeholder={data.position || 'Position'} changed={(value) => changeHandler(value, 'position')}
-              inputType="InlineSecondaryTitle" />
+              inputType="InlineSecondaryTitle5" />
           </div>
         </div>
       </div>

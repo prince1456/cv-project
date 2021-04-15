@@ -114,25 +114,22 @@ const WhyMeStep = (props) => {
             <EditableInput
               placeholder={data.trait1 || "Disciplined"}
               changed={(value) => changeHandler(value, "trait1")}
-              inputType="InlinePrimaryTitle"
+              inputType="InlinePrimaryTitle5Oranged"
             />
-            <br></br>
-            <EditableInput 
+            <EditableInput
               placeholder={data.trait2 || "Structured"}
               changed={(value) => changeHandler(value, "trait2")}
-              inputType="InlinePrimaryTitle"
+              inputType="InlinePrimaryTitle5Oranged"
             />
-            <br></br>
             <EditableInput
               placeholder={data.trait3 || "Always smiling"}
               changed={(value) => changeHandler(value, "trait3")}
-              inputType="InlinePrimaryTitle"
+              inputType="InlinePrimaryTitle5Oranged"
             />
-            <br></br>
             <EditableInput
               placeholder={data.trait4 || "Good overview"}
               changed={(value) => changeHandler(value, "trait4")}
-              inputType="InlinePrimaryTitle"
+              inputType="InlinePrimaryTitle5Oranged"
             />
           </div>
         </div>

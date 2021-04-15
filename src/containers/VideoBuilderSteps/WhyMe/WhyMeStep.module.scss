@@ -148,7 +148,7 @@
 .TextBox5 {
   position: absolute;
   overflow: hidden;
-  width: 32%;
+  width: 20%;
   top: 27%;
   bottom: 6%;
   height: 100%;
@@ -158,21 +158,17 @@
   // flex-flow: column;
 }
 
-TextBoxInner5 {
+.TextBoxInner5 {
   color: orangered;
   font-family: "Julius Sans", sans-serif;
   font-size: 45px;
-  height: 80%;
+  height: 600px;
   text-align: center;
-  line-height: 1.3em;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  flex-basis: auto;
+  flex: 1;
+  flex-flow: column;
+  flex-wrap: wrap;
+  align-content:center;
+  justify-content: space-between;
   width: 100%;
-}
-.inputWhyme{
-  display: block;
-  width: 90%;
-  margin: auto;
 }
