@@ -13,8 +13,8 @@
   position: absolute;
   top: 7%;
   font-size: 65px;
-  color: #FEFEFE;
-  
+  color: #fefefe;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,12 +23,12 @@
 
 .StepTitle {
   font-size: 75px;
-  font-family: 'Julius Sans', sans-serif;
+  font-family: "Julius Sans", sans-serif;
 }
 
 .BottomBox9 {
   position: absolute;
-  background-color: #0B1226;
+  background-color: #0b1226;
   width: 20%;
   bottom: 5%;
   height: 25%;
@@ -70,4 +70,21 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.TitleWrapper5 {
+  padding: 10px;
+  position: absolute;
+  top: 35%;
+  left: 3%;
+  font-size: 65px;
+  color: orange;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Title5 {
+  color: orange
 }

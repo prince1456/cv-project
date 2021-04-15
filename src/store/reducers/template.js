@@ -161,7 +161,7 @@ const initialState = {
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/1.svg",
           videoContainer: {
             size: "60%",
-            position: { top: "20%", left: "8%" },
+            position: { top: "20%", left: '8%' },
           },
         },
         {
@@ -187,8 +187,8 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/4.svg",
           videoContainer: {
-            size: "74.5%",
-            position: { top: "11.5%", right: "0" },
+            size: "80%",
+            position: { top: "0", right: "0" },
           },
         },
         {
@@ -196,8 +196,8 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/5.svg",
           videoContainer: {
-            size: "79%",
-            position: { top: "20%", right: "0" },
+            size: "52%",
+            position: { top: "27%" },
           },
         },
         {
@@ -205,8 +205,8 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/6.svg",
           videoContainer: {
-            size: "48.5%",
-            position: { top: 0, right: 0 },
+            size: "42%",
+            position: { top: "36.1%", left: "5.9%" },
           },
         },
         {
@@ -214,8 +214,8 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/7.svg",
           videoContainer: {
-            size: "81%",
-            position: { top: "19%" },
+            size: "75%",
+            position: { top: 0, right: 0 },
           },
         },
       ],
