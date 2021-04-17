@@ -10,6 +10,7 @@ const EditableInput = (props) => {
   const [editing, setEditing] = useState(false);
   const [input, setInput] = useState(props.placeholder);
   const [fontSize, setFontsize] = useState(props.fontSize);
+  const calculateFontSize = props.calculateFontSize;
   const handleEdit = () => {
     setEditing(!editing);
   };
@@ -74,12 +75,4 @@ export default EditableInput;
 
 EditableInput.defaultProps = {
   fontSize: 50,
-};
-
-const calculateFontSize = (value, fontSize) => {
-  if (fontSize >= 50 && fontSize < 70) {
-    if (value.length > 20) {
-      return 45;
-    }
-  }
 };

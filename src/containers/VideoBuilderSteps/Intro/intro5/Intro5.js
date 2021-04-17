@@ -1,4 +1,4 @@
-import classes from "./intro4.modules.scss";
+import classes from "./Intro5.modules.scss";
 import VideoContainer from "../../../../components/VideoContainer/VideoContainer";
 import EditableInput from "../../../../components/EditableInput/EditableInput";
 
@@ -9,6 +9,7 @@ const Intro5 = ({
   data,
   bgUrl,
 }) => {
+  console.log(bgUrl, "this is the bg url ");
   return (
     <div className={classes.Wrapper4}>
       <img src={bgUrl} />
@@ -34,3 +35,11 @@ const Intro5 = ({
   );
 };
 export default Intro5;
+
+const calculateFontSize = (value, fontSize) => {
+  if (fontSize >= 50 && fontSize < 70) {
+    if (value.length > 20) {
+      return 45;
+    }
+  }
+};
