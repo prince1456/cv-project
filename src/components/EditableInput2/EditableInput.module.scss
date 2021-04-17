@@ -1,0 +1,237 @@
+.hidden {
+  display: none;
+}
+
+.Title4 {
+  font-size: 75px;
+  font-family: "Julius Sans", sans-serif;
+}
+
+.SubTitle4 {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+.Title5 {
+  font-size: 70px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-bottom: 100px;
+  letter-spacing: unset;
+  color: orangered;
+}
+.TitleOutro5 {
+  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  margin-bottom: 100px;
+  letter-spacing: unset;
+  color: orangered;
+}
+.SubTitle5 {
+  font-size: 45px;
+  font-family: "Stellar Pro";
+  font-family: "Julius Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 5px;
+  color: #fff;
+}
+.Title9 {
+  font-size: 70px;
+  font-family: "Stellar Pro";
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.SubTitle9 {
+  font-size: 30px;
+  font-family: "Stellar Pro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.Title8 {
+  font-size: 46px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #24203f;
+  text-transform: uppercase;
+}
+
+.SubTitle8 {
+  font-size: 34px;
+  font-family: "DM Sans" sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.Title7 {
+  font-size: 46px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #151d43;
+  text-transform: uppercase;
+}
+
+.SubTitle7 {
+  font-size: 34px;
+  font-family: "DM Sans" sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #151d43;
+}
+
+.Input {
+  color: #000000 !important;
+  text-align: center;
+  padding: 0.25em 0.5em;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+  line-height: 1;
+  height: 1.25em;
+  transition: 180ms box-shadow ease-in-out;
+  // width: 1700px;
+
+  &:focus {
+    border-color: hsl(
+      var(--input-focus-h),
+      var(--input-focus-s),
+      var(--input-focus-l)
+    );
+    box-shadow: 0 0 0 3px
+      hsla(
+        var(--input-focus-h),
+        var(--input-focus-s),
+        calc(var(--input-focus-l) + 40%),
+        0.8
+      );
+  }
+}
+
+.InlinePrimaryTitle {
+  font-size: 38px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #2a2a2a;
+  font-weight: 800;
+}
+// .InlinePrimaryTitle5,.InlineSecondaryTitle5 {
+//   font-size: 38px;
+//   font-family: "Open Sans", sans-serif;
+//   text-transform: uppercase;
+//   color: #2a2a2a;
+//   font-weight: 800;
+// }
+
+.InlineSecondaryTitle {
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #2a2a2a;
+  font-weight: 700;
+}
+
+.InlineTertiaryTitle {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #2a2a2a;
+  font-weight: 500;
+}
+
+.FreeText {
+  font-family: "Julius Sans", sans-serif;
+  font-size: 45px;
+}
+
+.InlinePrimaryTitle9 {
+  font-size: 46px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.InlineSecondaryTitle9 {
+  font-size: 32px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.InlineTertiaryTitle9 {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.Trait9 {
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.Title5 {
+  font-size: 60px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: orangered;
+  font-weight: 800;
+}
+
+
+.InlinePrimaryTitle5 {
+  font-size: 46px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.InlineSecondaryTitle5 {
+  font-size: 49px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+}
+.InlineSecondaryPosition5 {
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.InlineTertiaryTitle5 {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.InlinePrimaryTitle5Oranged{
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: orangered;
+  font-weight: 800;
+}
+.Trait5 {
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+}
