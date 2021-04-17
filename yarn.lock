@@ -9356,6 +9356,11 @@ react-icons@^4.1.0:
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.1.0.tgz#9ca9bcbf2e3aee8e86e378bb9d465842947bbfc3"
   integrity sha512-FCXBg1JbbR0vWALXIxmFAfozHdVIJmmwCD81Jk0EKOt7Ax4AdBNcaRkWhR0NaKy9ugJgoY3fFvo0PHpte55pXg==
 
+react-inline-input-edit@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-inline-input-edit/-/react-inline-input-edit-1.0.2.tgz#116c128ddfc062993f9511f2440976d1b0ac6fa9"
+  integrity sha512-yKT7Gry7+mCUnlc6riZiFWGQ4a5o9l0btaxtf22qt1BOyJUUQIJFEDTT7eDRXzq3qeEt+ZkfgxTeGlbpexLsYA==
+
 react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -9485,6 +9490,11 @@ react-scripts@4.0.1:
     workbox-webpack-plugin "5.1.4"
   optionalDependencies:
     fsevents "^2.1.3"
+
+react-text-content-editable@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/react-text-content-editable/-/react-text-content-editable-3.0.2.tgz#7bc55c1088ce6cc783faa348e8eac81b9de70de7"
+  integrity sha512-ESNKdkV+johZeLWNmmRTdTlXpFBCgD0DkqzVXpK2pbpg9XiNchtyecRXJMw6Bo78pw0GF6IHkOMfEXhpbo+iRg==
 
 react-wizard-primitive@^2.5.0:
   version "2.5.0"
