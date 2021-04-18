@@ -1,8 +1,8 @@
 import classes from "./Intro5.modules.scss";
 import VideoContainer from "../../../../components/VideoContainer/VideoContainer";
 import EditableInput from "../../../../components/EditableInput2/EditableInput";
-import { useState } from "react";
-
+import { useEffect, useRef, useState } from "react";
+import React from "react";
 const Intro5 = ({
   currentScene,
   videoUploadHandler,
@@ -12,6 +12,16 @@ const Intro5 = ({
 }) => {
   const [NamefontSize, setNameFontsize] = useState(60);
   const [PosfontSize, setPosFontsize] = useState(60);
+  // const usePrevious = (value) => {
+  //   const ref = useRef();
+  //   useEffect(() => {
+  //     ref.current = value;
+  //     console.log(ref.current, "this is ref.current");
+  //   });
+  //   return ref.current;
+  // };
+  // const prev = usePrevious(NamefontSize);
+  // var defaultNameSize = prev;
 
   const calculateFontSize = (value, type) => {
     if (type == "name") {
@@ -25,7 +35,7 @@ const Intro5 = ({
       } else if (value.length < 25) {
         setNameFontsize(40);
       } else {
-        console.log("to much name");
+        setNameFontsize(30);
       }
     }
     if (type == "position") {
@@ -41,7 +51,7 @@ const Intro5 = ({
       } else if (value.length < 30) {
         setPosFontsize(35);
       } else {
-        console.log("to much name");
+        setPosFontsize(35);
       }
     }
   };
@@ -61,9 +71,10 @@ const Intro5 = ({
           display: "flex",
           flexDirection: "column",
           position: "absolute",
-          right: "2%",
+          right: "1%",
           top: "40%",
-        
+          width: "32%",
+          textAlign: "center",
         }}
       >
         <EditableInput
@@ -88,4 +99,7 @@ const Intro5 = ({
     </div>
   );
 };
-export default Intro5;
+function introPropsAreEqual(prevInro, nextIntro) {
+  return prevInro.NamefontSize === nextIntro.NamefontSize;
+}
+export default React.memo(Intro5, introPropsAreEqual);
