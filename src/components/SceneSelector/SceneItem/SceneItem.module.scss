@@ -20,6 +20,7 @@
 .ImgWrap img {
   display: block;
   max-width: 100%;
+  min-width: 100%;
   height: auto; /* maintain aspect ratio*/
 }
 
@@ -48,7 +49,8 @@
 } */
 
 .Selected {
-  background: transparent linear-gradient(162deg, #3166AD 0%, #84E2CC 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(162deg, #3166ad 0%, #84e2cc 100%) 0%
+    0% no-repeat padding-box;
   box-shadow: 0px -47px 46px #00000010;
   width: 31%;
 }

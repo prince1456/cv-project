@@ -3,6 +3,9 @@ import VideoContainer from "../../../../components/VideoContainer/VideoContainer
 import EditableInput from "../../../../components/EditableInput2/EditableInput";
 import { useEffect, useRef, useState } from "react";
 import React from "react";
+
+let globalState = { nameFont: 60, posFont: 60 };
+
 const Intro5 = ({
   currentScene,
   videoUploadHandler,
@@ -10,47 +13,47 @@ const Intro5 = ({
   data,
   bgUrl,
 }) => {
-  const [NamefontSize, setNameFontsize] = useState(60);
-  const [PosfontSize, setPosFontsize] = useState(60);
-  // const usePrevious = (value) => {
-  //   const ref = useRef();
-  //   useEffect(() => {
-  //     ref.current = value;
-  //     console.log(ref.current, "this is ref.current");
-  //   });
-  //   return ref.current;
-  // };
-  // const prev = usePrevious(NamefontSize);
-  // var defaultNameSize = prev;
-
+  const [NamefontSize, setNameFontsize] = useState(globalState.nameFont);
+  const [PosfontSize, setPosFontsize] = useState(globalState.posFont);
   const calculateFontSize = (value, type) => {
     if (type == "name") {
       const NameCharNumber = 15;
       if (value.length < 15) {
         setNameFontsize(60);
+        globalState.nameFont = 60;
       } else if (value.length < 20) {
         setNameFontsize(49);
+        globalState.nameFont = 49;
       } else if (value.length < 22) {
         setNameFontsize(44);
+        globalState.nameFont = 44;
       } else if (value.length < 25) {
         setNameFontsize(40);
+        globalState.nameFont = 40;
       } else {
         setNameFontsize(30);
+        globalState.nameFont = 30;
       }
     }
     if (type == "position") {
       const NameCharNumber = 15;
       if (value.length < 15) {
+        globalState.posFont = 60;
         setPosFontsize(60);
       } else if (value.length < 20) {
+        globalState.posFont = 49;
         setPosFontsize(49);
       } else if (value.length < 22) {
+        globalState.posFont = 44;
         setPosFontsize(44);
       } else if (value.length < 25) {
+        globalState.posFont = 40;
         setPosFontsize(40);
       } else if (value.length < 30) {
+        globalState.posFont = 35;
         setPosFontsize(35);
       } else {
+        globalState.posFont = 35;
         setPosFontsize(35);
       }
     }
@@ -99,7 +102,5 @@ const Intro5 = ({
     </div>
   );
 };
-function introPropsAreEqual(prevInro, nextIntro) {
-  return prevInro.NamefontSize === nextIntro.NamefontSize;
-}
-export default React.memo(Intro5, introPropsAreEqual);
+
+export default Intro5;

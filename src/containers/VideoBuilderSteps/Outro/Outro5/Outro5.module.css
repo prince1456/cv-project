@@ -1,10 +1,10 @@
 .TextBox5 {
   position: absolute;
   overflow: hidden;
-  width: 48%;
+  width: 50%;
   height: 45%;
   top: 50%;
-  left: 4%;
+  left: 2%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@
   color: #fefefe;
   font-family: "Open Sans", sans-serif;
   font-size: 45px;
-  width: 65%;
+  width: 60%;
   text-align: center;
   line-height: 1.3em;
 }
@@ -29,10 +29,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .StepTitle5 {
   font-size: 75px;
   font-family: "Julius Sans", sans-serif;
-  text-transform: uppercase;
+ 
 }
