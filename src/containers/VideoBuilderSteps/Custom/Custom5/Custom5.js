@@ -8,6 +8,7 @@ const Custom5 = ({
   videoUploadHandler,
   data,
   bgUrl,
+  limitation
 }) => {
   return (
     <div className={classes.Wrapper}>
@@ -23,6 +24,7 @@ const Custom5 = ({
           placeholder={data.sceneTitle || "Custom"}
           changed={(value) => changeHandler(value, "sceneTitle")}
           inputType="TitleCumtom5"
+          limit={limitation}
         />
       </div>
     </div>

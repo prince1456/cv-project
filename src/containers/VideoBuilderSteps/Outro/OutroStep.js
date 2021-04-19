@@ -96,6 +96,7 @@ const OutroStep = (props) => {
           selectedTemplate.sceneBackgrounds.find((s) => props.id.includes(s.id))
             .url
         }
+        limitation = {selectedTemplate.sceneBackgrounds[5].inputLimit}
       />
     );
   } else if (selectedTemplate.id === 9) {

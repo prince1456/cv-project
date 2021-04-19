@@ -108,6 +108,7 @@ const ExperienceStep = (props) => {
       deleteIconClass = classes.DeleteIcon5;
     }
 
+    const limitation = selectedTemplate.sceneBackgrounds[2].inputLimit;
     return (
       <div style={{ position: "relative" }}>
         <div className={divClass}>
@@ -115,16 +116,19 @@ const ExperienceStep = (props) => {
             placeholder={exp.companyName || "Company name"}
             changed={(value) => changeHandler(idx, value, "companyName")}
             inputType={primaryTitle}
+            limit={limitation.limit1}
           />
           <EditableInput
             placeholder={exp.position || "Your position"}
             changed={(value) => changeHandler(idx, value, "position")}
             inputType={secondaryTitle}
+            limit={limitation.limit2}
           />
           <EditableInput
             placeholder={exp.period || "Period eg. 2010 - 2014"}
             changed={(value) => changeHandler(idx, value, "period")}
             inputType={tertiaryTitle}
+            limit={limitation.limit3}
           />
         </div>
         <AiFillDelete

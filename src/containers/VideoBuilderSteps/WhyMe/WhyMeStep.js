@@ -102,6 +102,7 @@ const WhyMeStep = (props) => {
           selectedTemplate.sceneBackgrounds.find((s) => props.id.includes(s.id))
             .url
         }
+        limitation={selectedTemplate.sceneBackgrounds[4].inputLimit}
       />
     );
   } else if (selectedTemplate.id === 9) {

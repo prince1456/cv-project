@@ -13,12 +13,13 @@
 
 .TextBox5 {
   position: absolute;
-  overflow: hidden;
   width: 20%;
-  top: 57.2%;
+  height: 20%;
+  bottom: 23%;
   color: #ffffff;
   left: 6%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -31,6 +32,8 @@
   text-align: center;
   line-height: 1.3em;
   display: flex;
+  height: 100%;
   flex-direction: column;
+  justify-content: space-around;
   word-wrap: break-word;
 }

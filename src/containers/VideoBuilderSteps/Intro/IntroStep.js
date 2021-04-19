@@ -91,15 +91,19 @@ const IntroStep = (props) => {
     );
   }
   if (selectedTemplate.id === 5) {
-   content =  <Intro5
-      currentScene={currentScene}
-      videoUploadHandler={videoUploadHandler}
-      changeHandler={changeHandler}
-      data={data}
-      bgUrl={
-        selectedTemplate.sceneBackgrounds.find((s) => props.id.includes(s.id)).url
-      }
-    />;
+    content = (
+      <Intro5
+        currentScene={currentScene}
+        videoUploadHandler={videoUploadHandler}
+        changeHandler={changeHandler}
+        data={data}
+        bgUrl={
+          selectedTemplate.sceneBackgrounds.find((s) => props.id.includes(s.id))
+            .url
+        }
+        limitation={selectedTemplate.sceneBackgrounds[0].inputLimit}
+      />
+    );
   } else if (selectedTemplate.id === 7) {
     content = (
       <div>

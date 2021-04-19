@@ -10,6 +10,7 @@ const Refer5 = ({
   videoUploadHandler,
   data,
   bgUrl,
+  limitation,
 }) => {
   const [NamefontSize, setNameFontsize] = useState(globalState.nameFont);
   const [PosfontSize, setPosFontsize] = useState(globalState.posFont);
@@ -68,9 +69,9 @@ const Refer5 = ({
             calculateFontSize={calculateFontSize}
             fontSize={NamefontSize}
             type="name"
-            limit={30}
+            limit={limitation.limit1}
           />
-          <br></br>
+
           <EditableInput
             placeholder={data.position || "Position"}
             changed={(value) => changeHandler(value, "position")}
@@ -78,7 +79,7 @@ const Refer5 = ({
             calculateFontSize={calculateFontSize}
             fontSize={PosfontSize}
             type="position"
-            limit={30}
+            limit={limitation.limit2}
           />
         </div>
       </div>

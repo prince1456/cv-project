@@ -9,8 +9,10 @@ const EditableInput = (props) => {
   const handleEdit = () => {
     setEditing(!editing);
   };
-  const handleChange = (event) => {
-    setInput(event.target.value);
+  const handleChange = ({ target: { value } }) => {
+    if (value.length <= props.limit) {
+      setInput(value);
+    }
   };
   const handleSubmit = () => {
     let val = input?.trim();

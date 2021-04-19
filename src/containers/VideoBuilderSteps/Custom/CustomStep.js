@@ -111,6 +111,7 @@ const CustomStep = (props) => {
           selectedTemplate.sceneBackgrounds.find((s) => props.id.includes(s.id))
             .url
         }
+        limitation = {selectedTemplate.sceneBackgrounds[6].inputLimit}
       />
     );
   } else if (selectedTemplate.id === 9) {

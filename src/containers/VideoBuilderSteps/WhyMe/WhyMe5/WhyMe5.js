@@ -8,6 +8,7 @@ const WhyMe5 = ({
   videoUploadHandler,
   data,
   bgUrl,
+  limitation
 }) => {
   return (
     <div className={classes.Wrapper}>
@@ -27,21 +28,25 @@ const WhyMe5 = ({
             placeholder={data.trait1 || "Disciplined"}
             changed={(value) => changeHandler(value, "trait1")}
             inputType="InlinePrimaryTitle5Oranged"
+            limit={limitation}
           />
           <EditableInput
             placeholder={data.trait2 || "Structured"}
             changed={(value) => changeHandler(value, "trait2")}
             inputType="InlinePrimaryTitle5Oranged"
+            limit={limitation}
           />
           <EditableInput
             placeholder={data.trait3 || "Always smiling"}
             changed={(value) => changeHandler(value, "trait3")}
             inputType="InlinePrimaryTitle5Oranged"
+            limit={limitation}
           />
           <EditableInput
             placeholder={data.trait4 || "Good overview"}
             changed={(value) => changeHandler(value, "trait4")}
             inputType="InlinePrimaryTitle5Oranged"
+            limit={limitation}
           />
         </div>
       </div>

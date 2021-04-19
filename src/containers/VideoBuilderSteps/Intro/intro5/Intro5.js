@@ -11,7 +11,8 @@ const Intro5 = ({
   videoUploadHandler,
   changeHandler,
   data,
-  bgUrl,
+bgUrl,
+limitation
 }) => {
   const [NamefontSize, setNameFontsize] = useState(globalState.nameFont);
   const [PosfontSize, setPosFontsize] = useState(globalState.posFont);
@@ -88,7 +89,7 @@ const Intro5 = ({
           calculateFontSize={calculateFontSize}
           fontSize={NamefontSize}
           type="name"
-          limit={30}
+          limit={limitation.limit1}
         />
         <EditableInput
           inputType="SubTitle5"
@@ -97,7 +98,7 @@ const Intro5 = ({
           calculateFontSize={calculateFontSize}
           fontSize={PosfontSize}
           type="position"
-          limit={30}
+          limit={limitation.limit2}
         />
       </div>
     </div>

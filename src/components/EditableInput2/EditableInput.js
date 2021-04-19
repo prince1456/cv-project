@@ -15,7 +15,9 @@ const EditableInput = (props) => {
   };
 
   const handleChange = ({ target: { value } }) => {
-    setInput(value);
+    if (value.length <= limit) {
+      setInput(value);
+    }
   };
 
   const handleSubmit = () => {

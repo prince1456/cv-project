@@ -91,6 +91,7 @@ const ReferenceStep = (props) => {
           selectedTemplate.sceneBackgrounds.find((s) => props.id.includes(s.id))
             .url
         }
+        limitation={selectedTemplate.sceneBackgrounds[3].inputLimit}
       />
     );
   } else if (selectedTemplate.id === 9) {

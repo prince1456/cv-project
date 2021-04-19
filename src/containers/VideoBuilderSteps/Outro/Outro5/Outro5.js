@@ -8,6 +8,7 @@ const Outro5 = ({
   videoUploadHandler,
   data,
   bgUrl,
+  limitation
 }) => {
   return (
     <div className={classes.Wrapper}>
@@ -23,6 +24,7 @@ const Outro5 = ({
           placeholder={data.sceneTitle || "Thank you for watching my CV-VIDEO"}
           changed={(value) => changeHandler(value, "sceneTitle")}
           inputType="TitleOutro5"
+          limit={limitation.limit1}
         />
       </div>
       <div className={classes.TextBox5}>
@@ -33,6 +35,7 @@ const Outro5 = ({
             }
             changed={(value) => changeHandler(value, "freeText")}
             inputType="FreeText"
+            limit={limitation.limit2}
           />
         </div>
       </div>

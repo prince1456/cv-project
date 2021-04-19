@@ -163,6 +163,10 @@ const initialState = {
             size: "60%",
             position: { top: "20%", left: "8%" },
           },
+          inputLimit: {
+            limit1: 19,
+            limit2: 30,
+          },
         },
         {
           id: "presentYourself",
@@ -181,9 +185,11 @@ const initialState = {
             size: "72%",
             position: { top: 0, left: 0 },
           },
-          editableInput:{
-            primaryTitle : "InlinePrimaryTitle9",
-          }
+          inputLimit: {
+            limit1: 17,
+            limit2: 20,
+            limit3: 25,
+          },
         },
         {
           id: "reference",
@@ -192,6 +198,10 @@ const initialState = {
           videoContainer: {
             size: "74.5%",
             position: { top: "11%", right: "0" },
+          },
+          inputLimit: {
+            limit1: 18,
+            limit2: 35,
           },
         },
         {
@@ -202,6 +212,7 @@ const initialState = {
             size: "79%",
             position: { top: "20%", right: "0%" },
           },
+          inputLimit: 25,
         },
         {
           id: "outro",
@@ -210,6 +221,10 @@ const initialState = {
           videoContainer: {
             size: "48.5%",
             position: { top: "0%", right: "0%" },
+          },
+          inputLimit: {
+            limit1: 65,
+            limit2: 70,
           },
         },
         {
@@ -222,6 +237,7 @@ const initialState = {
             size: "75%",
             position: { top: 0, right: 0 },
           },
+          inputLimit: 25,
         },
       ],
     },
