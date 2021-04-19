@@ -114,7 +114,7 @@ const ExperienceStep = (props) => {
           <EditableInput
             placeholder={exp.companyName || "Company name"}
             changed={(value) => changeHandler(idx, value, "companyName")}
-            inputType={primaryTitle}
+            inputType={exp.primaryTitle}
           />
           <EditableInput
             placeholder={exp.position || "Your position"}

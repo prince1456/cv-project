@@ -38,6 +38,9 @@
   font-style: normal;
   letter-spacing: 5px;
   color: #fff;
+  width: 100%;
+  word-wrap: break-word;
+  padding: 0px 20px;
 }
 .Title9 {
   font-size: 70px;
@@ -189,8 +192,10 @@
   text-transform: uppercase;
   color: orangered;
   font-weight: 800;
+  width: 100%;
+  word-wrap: break-word;
+  padding: 0px 20px;
 }
-
 
 .InlinePrimaryTitle5 {
   font-size: 46px;
@@ -221,12 +226,15 @@
   font-weight: 500;
 }
 
-.InlinePrimaryTitle5Oranged{
+.InlinePrimaryTitle5Oranged {
   font-size: 40px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   color: orangered;
   font-weight: 800;
+  width: 100%;
+  word-wrap: break-word;
+  padding: 0px 20px;
 }
 .Trait5 {
   font-size: 28px;

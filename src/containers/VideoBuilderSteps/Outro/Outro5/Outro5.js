@@ -19,15 +19,11 @@ const Outro5 = ({
         initialFile={data.file}
       />
       <div className={classes.TitleWrapper5}>
-        <label className={classes.StepTitl5}>
-          <EditableInput
-            placeholder={
-              data.sceneTitle || "Thank you for watching my CV-VIDEO"
-            }
-            changed={(value) => changeHandler(value, "sceneTitle")}
-            inputType="TitleOutro5"
-          />
-        </label>
+        <EditableInput
+          placeholder={data.sceneTitle || "Thank you for watching my CV-VIDEO"}
+          changed={(value) => changeHandler(value, "sceneTitle")}
+          inputType="TitleOutro5"
+        />
       </div>
       <div className={classes.TextBox5}>
         <div className={classes.TextBoxInner5}>

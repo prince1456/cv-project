@@ -19,13 +19,11 @@ const Custom5 = ({
         initialFile={data.file}
       />
       <div className={classes.TitleWrapper5}>
-        <label className={classes.StepTitle}>
-          <EditableInput
-            placeholder={data.sceneTitle || "Custom"}
-            changed={(value) => changeHandler(value, "sceneTitle")}
-            inputType="TitleCumtom5"
-          />
-        </label>
+        <EditableInput
+          placeholder={data.sceneTitle || "Custom"}
+          changed={(value) => changeHandler(value, "sceneTitle")}
+          inputType="TitleCumtom5"
+        />
       </div>
     </div>
   );

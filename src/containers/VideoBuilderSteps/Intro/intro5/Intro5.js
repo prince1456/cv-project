@@ -38,23 +38,23 @@ const Intro5 = ({
     if (type == "position") {
       const NameCharNumber = 15;
       if (value.length < 15) {
-        globalState.posFont = 60;
-        setPosFontsize(60);
+        globalState.posFont = 39;
+        setPosFontsize(39);
       } else if (value.length < 20) {
-        globalState.posFont = 49;
-        setPosFontsize(49);
-      } else if (value.length < 22) {
-        globalState.posFont = 44;
-        setPosFontsize(44);
-      } else if (value.length < 25) {
-        globalState.posFont = 40;
-        setPosFontsize(40);
-      } else if (value.length < 30) {
         globalState.posFont = 35;
         setPosFontsize(35);
+      } else if (value.length < 22) {
+        globalState.posFont = 33;
+        setPosFontsize(33);
+      } else if (value.length < 25) {
+        globalState.posFont = 31;
+        setPosFontsize(31);
+      } else if (value.length < 30) {
+        globalState.posFont = 30;
+        setPosFontsize(30);
       } else {
         globalState.posFont = 35;
-        setPosFontsize(35);
+        setPosFontsize(30);
       }
     }
   };
@@ -77,6 +77,7 @@ const Intro5 = ({
           right: "1%",
           top: "40%",
           width: "32%",
+          marginLeft: "1%",
           textAlign: "center",
         }}
       >

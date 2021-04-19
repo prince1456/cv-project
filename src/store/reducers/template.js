@@ -181,6 +181,9 @@ const initialState = {
             size: "72%",
             position: { top: 0, left: 0 },
           },
+          editableInput:{
+            primaryTitle : "InlinePrimaryTitle9",
+          }
         },
         {
           id: "reference",
