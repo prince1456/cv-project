@@ -164,7 +164,7 @@ const initialState = {
             position: { top: "20%", left: "8%" },
           },
           inputLimit: {
-            limit1: 19,
+            limit1: 17,
             limit2: 30,
           },
         },
