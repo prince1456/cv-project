@@ -9,7 +9,7 @@
   height: 200px;
   padding-left: 4rem;
   padding-right: 4rem;
-  bottom: 5%;
+  bottom: 3%;
   left: 0;
 }
 :root {
@@ -143,9 +143,11 @@
 
 .title {
   position: absolute;
-  right: 3%;
+  right: 4.5%;
   top: 38%;
-  font-family: "Julius Sans", sans-serif;
-  font-size: 80px;
-  color: orangered;
+  font-family: "open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 600;
+  color: rgb(191, 79, 54);
 }

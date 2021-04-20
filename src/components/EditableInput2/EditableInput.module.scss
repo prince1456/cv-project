@@ -18,8 +18,7 @@
   font-weight: 900;
   font-style: normal;
   margin-bottom: 100px;
-  letter-spacing: unset;
-  color: orangered;
+  color: rgb(191, 79, 54);
 }
 .TitleOutro5 {
   font-size: 50px;
@@ -31,12 +30,14 @@
   color: orangered;
 }
 .SubTitle5 {
-  font-size: 45px;
+  font-size: 48px !important;
   font-family: "Stellar Pro";
-  font-family: "Julius Sans", sans-serif;
-  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
   font-style: normal;
-  letter-spacing: 5px;
+  letter-spacing: 0.1em;
+  transform: scale(0.7, 1);
+  font-weight: 500;
   color: #fff;
   width: 100%;
   word-wrap: break-word;
@@ -187,11 +188,11 @@
 }
 
 .Title5 {
-  font-size: 60px;
+  font-size: 60px !important;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  color: orangered;
-  font-weight: 800;
+  color: #d86416;
+  font-weight: bolder;
   width: 100%;
   word-wrap: break-word;
   padding: 0px 20px;
@@ -206,16 +207,19 @@
 }
 
 .InlineSecondaryTitle5 {
-  font-size: 49px;
+  font-size: 50px;
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
-  font-weight: 700;
+  transform: scale(0.9, 1);
+  letter-spacing: 2px;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
 }
 .InlineSecondaryPosition5 {
-  font-size: 35px;
+  font-size: 35px !important;
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 500 !important;
 }
 
 .InlineTertiaryTitle5 {

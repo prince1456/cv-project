@@ -8,7 +8,7 @@ const Outro5 = ({
   videoUploadHandler,
   data,
   bgUrl,
-  limitation
+  limitation,
 }) => {
   return (
     <div className={classes.Wrapper}>
@@ -21,7 +21,7 @@ const Outro5 = ({
       />
       <div className={classes.TitleWrapper5}>
         <EditableInput
-          placeholder={data.sceneTitle || "Thank you for watching my CV-VIDEO"}
+          placeholder={data.sceneTitle || "Thanks for your attention"}
           changed={(value) => changeHandler(value, "sceneTitle")}
           inputType="TitleOutro5"
           limit={limitation.limit1}
@@ -31,7 +31,8 @@ const Outro5 = ({
         <div className={classes.TextBoxInner5}>
           <EditableInput
             placeholder={
-              data.freeText || "I look forward contributing to your corporation"
+              data.freeText ||
+              "I would be happy to contribute to your organization"
             }
             changed={(value) => changeHandler(value, "freeText")}
             inputType="FreeText"

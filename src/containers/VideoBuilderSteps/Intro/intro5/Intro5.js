@@ -11,8 +11,8 @@ const Intro5 = ({
   videoUploadHandler,
   changeHandler,
   data,
-bgUrl,
-limitation
+  bgUrl,
+  limitation,
 }) => {
   const [NamefontSize, setNameFontsize] = useState(globalState.nameFont);
   const [PosfontSize, setPosFontsize] = useState(globalState.posFont);
@@ -76,7 +76,7 @@ limitation
           flexDirection: "column",
           position: "absolute",
           right: "1%",
-          top: "40%",
+          top: "38%",
           width: "32%",
           marginLeft: "1%",
           textAlign: "center",

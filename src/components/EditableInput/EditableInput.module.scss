@@ -27,19 +27,21 @@
   font-weight: 900;
   font-style: normal;
   letter-spacing: unset;
+  text-transform: uppercase;
+  letter-spacing: 4px;
   color: white;
   width: 100%;
   word-wrap: break-word;
   padding: 0px 20px;
 }
 .TitleOutro5 {
-  font-size: 50px;
+  font-size: 55px;
   font-family: "Open Sans", sans-serif;
   font-weight: 900;
   font-style: normal;
   margin-bottom: 100px;
-  letter-spacing: unset;
-  color: orangered;
+  letter-spacing: 1px;
+  color: rgb(191, 79, 54);
   width: 100%;
   word-wrap: break-word;
   padding: 0px 20px;
@@ -166,8 +168,12 @@
 }
 
 .FreeText {
-  font-family: "Julius Sans", sans-serif;
-  font-size: 45px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 53px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 76px;
   width: 100%;
   word-wrap: break-word;
   padding: 0px 20px;
@@ -224,7 +230,8 @@
   font-size: 38px;
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 500;
+  text-transform: unset !important;
 }
 .InlineSecondaryPosition5 {
   font-size: 35px;
@@ -245,7 +252,7 @@
   font-size: 40px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  color: orangered;
+  color: rgb(191, 79, 54);
   font-weight: 800;
   width: 100%;
   word-wrap: break-word;

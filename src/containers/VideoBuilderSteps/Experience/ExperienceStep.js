@@ -132,6 +132,7 @@ const ExperienceStep = (props) => {
           />
         </div>
         <AiFillDelete
+          style={{fontSize:"40px"}}
           className={deleteIconClass}
           onClick={() => deleteHandler(idx)}
         />

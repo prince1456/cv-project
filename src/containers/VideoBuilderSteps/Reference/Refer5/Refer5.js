@@ -21,7 +21,7 @@ const Refer5 = ({
         setNameFontsize(60);
         globalState.nameFont = 60;
       } else if (value.length < 20) {
-        setNameFontsize(49);
+        setNameFontsize(54);
         globalState.nameFont = 49;
       } else if (value.length < 22) {
         setNameFontsize(44);

@@ -58,7 +58,7 @@ const EditableInput = (props) => {
         {input}
       </label>
       <input
-        style={{ textAlign: "center" }}
+        style={{ textAlign: "center",fontSize:fontSize }}
         className={
           editing
             ? [classes[props.inputType], classes.Input].join(" ")

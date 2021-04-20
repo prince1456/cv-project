@@ -173,7 +173,7 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/2.svg",
           videoContainer: {
-            size: "74%",
+            size: "73.7%",
             position: { top: "0", right: 0 },
           },
         },
@@ -182,7 +182,7 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/3.svg",
           videoContainer: {
-            size: "72%",
+            size: "71.9%",
             position: { top: 0, left: 0 },
           },
           inputLimit: {
@@ -196,8 +196,8 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/4.svg",
           videoContainer: {
-            size: "74.5%",
-            position: { top: "11%", right: "0" },
+            size: "73.9%",
+            position: { top: "10.3%", right: "0" },
           },
           inputLimit: {
             limit1: 18,
@@ -209,8 +209,8 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/5.svg",
           videoContainer: {
-            size: "79%",
-            position: { top: "20%", right: "0%" },
+            size: "78.2%",
+            position: { top: "22%", right: "0%" },
           },
           inputLimit: 25,
         },
@@ -219,7 +219,7 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/6.svg",
           videoContainer: {
-            size: "48.5%",
+            size: "47.5%",
             position: { top: "0%", right: "0%" },
           },
           inputLimit: {
@@ -232,9 +232,7 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/7.svg",
           videoContainer: {
-            size: "74.5%",
-            position: { top: "0%", right: "0%" },
-            size: "75%",
+            size: "73.5%",
             position: { top: 0, right: 0 },
           },
           inputLimit: 25,

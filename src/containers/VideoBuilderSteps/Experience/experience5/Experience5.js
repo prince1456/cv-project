@@ -19,14 +19,17 @@ const Experience5 = ({
         videoUpload={videoUploadHandler}
         initialFile={data.file}
       />
-      <div className={classes.title}>Experiences</div>
+      <div className={classes.title}>Experience</div>
       <div className={classes.ExperienceBox5}>{experiences}</div>
       <button
         disabled={data.experiences && data.experiences.length === 4}
         style={{
-          width: "40%",
+          width: "10%",
+          padding: "15px",
           textAlign: "center",
-          bottom: "5%",
+          bottom: "0%",
+          borderRadius:"5px",
+          right: "0%",
           position: "absolute",
           fontSize: "22px",
         }}
