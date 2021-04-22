@@ -1,4 +1,4 @@
-import classes from "./Refer5.module.css";
+import classes from "./Refer5.module.scss";
 import VideoContainer from "../../../../components/VideoContainer/VideoContainer";
 import EditableInput from "src/components/EditableInput2/EditableInput";
 import { useState } from "react";

@@ -59,6 +59,16 @@ const Intro5 = ({
       }
     }
   };
+  const TitleWrapper5 = {
+    display: "flex",
+    flexDirection: "column",
+    position: "absolute",
+    right: "1%",
+    top: "38%",
+    width: "32%",
+    marginLeft: "1%",
+    textAlign: "center",
+  };
 
   return (
     <div className={classes.Wrapper4}>
@@ -69,19 +79,7 @@ const Intro5 = ({
         videoUpload={videoUploadHandler}
         initialFile={data.file}
       />
-      <div
-        className={classes.TitleWrapper5}
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          position: "absolute",
-          right: "1%",
-          top: "38%",
-          width: "32%",
-          marginLeft: "1%",
-          textAlign: "center",
-        }}
-      >
+      <div className={classes.TitleWrapper5} style={TitleWrapper5}>
         <EditableInput
           inputType="Title5"
           placeholder={data.name || "Your name here"}

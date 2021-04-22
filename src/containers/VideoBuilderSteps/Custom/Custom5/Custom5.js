@@ -1,4 +1,4 @@
-import classes from "./Custom5.module.css";
+import classes from "./Custom5.module.scss";
 import VideoContainer from "../../../../components/VideoContainer/VideoContainer";
 import EditableInput from "src/components/EditableInput/EditableInput";
 
