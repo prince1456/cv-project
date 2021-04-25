@@ -3,7 +3,7 @@ import VideoContainer from "../../../../components/VideoContainer/VideoContainer
 import EditableInput from "src/components/EditableInput2/EditableInput";
 import { useState } from "react";
 
-let globalState = { nameFont: 60, posFont: 60 };
+let globalState = { nameFont: 60, posFont: 40 };
 const Refer5 = ({
   currentScene,
   changeHandler,
@@ -21,14 +21,14 @@ const Refer5 = ({
         setNameFontsize(60);
         globalState.nameFont = 60;
       } else if (value.length < 20) {
-        setNameFontsize(54);
-        globalState.nameFont = 49;
+        setNameFontsize(45);
+        globalState.nameFont = 45;
       } else if (value.length < 22) {
-        setNameFontsize(44);
-        globalState.nameFont = 44;
-      } else if (value.length < 25) {
         setNameFontsize(40);
         globalState.nameFont = 40;
+      } else if (value.length < 25) {
+        setNameFontsize(35);
+        globalState.nameFont = 35;
       } else {
         setNameFontsize(30);
         globalState.nameFont = 30;
@@ -43,8 +43,8 @@ const Refer5 = ({
         globalState.posFont = 35;
         setPosFontsize(35);
       } else {
-        globalState.posFont = 35;
-        setPosFontsize(35);
+        globalState.posFont = 30;
+        setPosFontsize(30);
       }
     }
   };

@@ -196,8 +196,8 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/4.svg",
           videoContainer: {
-            size: "73.9%",
-            position: { top: "10.3%", right: "0" },
+            size: "73.81%",
+            position: { top: "10.6%", right: "0" },
           },
           inputLimit: {
             limit1: 18,
@@ -219,8 +219,8 @@ const initialState = {
           url:
             "https://q270xp2833h17mswdslynm.azureedge.net/templatefiles/5-cvvideo/svg/6.svg",
           videoContainer: {
-            size: "47.5%",
-            position: { top: "0%", right: "0%" },
+            size: "46.9%",
+            position: { top: "0%", right: "0%", width: "47.5%" },
           },
           inputLimit: {
             limit1: 65,
