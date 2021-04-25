@@ -10,6 +10,8 @@ const EditableInput = (props) => {
   const [editing, setEditing] = useState(false);
   const [input, setInput] = useState(props.placeholder);
   const { calculateFontSize, fontSize, limit, type } = props;
+  let marginbottom = 100;
+
   const handleEdit = () => {
     setEditing(!editing);
   };
@@ -17,6 +19,7 @@ const EditableInput = (props) => {
   const handleChange = ({ target: { value } }) => {
     if (value.length <= limit) {
       setInput(value);
+      marginbottom = 90;
     }
   };
 
@@ -58,7 +61,7 @@ const EditableInput = (props) => {
         {input}
       </label>
       <input
-        style={{ textAlign: "center",fontSize:fontSize }}
+        style={{ textAlign: "center", fontSize: fontSize }}
         className={
           editing
             ? [classes[props.inputType], classes.Input].join(" ")
