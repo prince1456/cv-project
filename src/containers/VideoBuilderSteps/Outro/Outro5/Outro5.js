@@ -1,6 +1,8 @@
 import classes from "./Outro5.module.scss";
 import VideoContainer from "../../../../components/VideoContainer/VideoContainer";
 import EditableInput from "src/components/EditableInput/EditableInput";
+import { useState } from "react";
+import EditableTextBox from "src/components/EditableTextBox/EditableTextBox";
 
 const Outro5 = ({
   currentScene,
@@ -10,6 +12,11 @@ const Outro5 = ({
   bgUrl,
   limitation,
 }) => {
+  const [FirstModal, setFirstModa] = useState(false);
+
+  const openFirstModal = () => {
+    setFirstModa(true);
+  };
   return (
     <div className={classes.Wrapper}>
       <img src={bgUrl} />
@@ -20,7 +27,7 @@ const Outro5 = ({
         initialFile={data.file}
       />
       <div className={classes.TitleWrapper5}>
-        <EditableInput
+        <EditableTextBox
           placeholder={data.sceneTitle || "Thanks for your attention"}
           changed={(value) => changeHandler(value, "sceneTitle")}
           inputType="TitleOutro5"
@@ -29,7 +36,7 @@ const Outro5 = ({
       </div>
       <div className={classes.TextBox5}>
         <div className={classes.TextBoxInner5}>
-          <EditableInput
+          <EditableTextBox
             placeholder={
               data.freeText ||
               "I would be happy to contribute to your organization"

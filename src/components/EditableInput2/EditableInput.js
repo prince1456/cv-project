@@ -67,6 +67,7 @@ const EditableInput = (props) => {
             ? [classes[props.inputType], classes.Input].join(" ")
             : classes.hidden
         }
+        style={{ height: "90px" }}
         value={input}
         onChange={handleChange}
         onBlur={handleSubmit}

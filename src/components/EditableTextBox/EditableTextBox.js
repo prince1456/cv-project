@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Aux from "../../hoc/_Aux/_Aux";
-import classes from "./EditableInput.module.scss";
+import classes from "./EditableTextBox.module.scss";
 const ESCAPE_KEY = 27;
 const ENTER_KEY = 13;
-const EditableInput = (props) => {
+const EditableTextBox = (props) => {
   const [editing, setEditing] = useState(false);
   const [input, setInput] = useState(props.placeholder);
   const handleEdit = () => {
@@ -44,13 +44,15 @@ const EditableInput = (props) => {
       >
         {input}
       </label>
-      <input
+      <textarea
+        rows="30"
+        cols="30"
+        style={{ height: "400px" }}
         className={
           editing
             ? [classes[props.inputType], classes.Input].join(" ")
             : classes.hidden
         }
-        style={{ height: "90px" }}
         value={input}
         onChange={handleChange}
         onBlur={handleSubmit}
@@ -59,4 +61,4 @@ const EditableInput = (props) => {
     </Aux>
   );
 };
-export default EditableInput;
+export default EditableTextBox;
